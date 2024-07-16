@@ -15,8 +15,6 @@ elif t == 4:
      a = int(input("Enter the first number: "))
      b = int(input("Enter the second number: "))
      print(a / b, " is the result.")
-     # some issue in this part(power) so i'll try to solve that
 else:
      a = int(input("Enter the first number: "))
-     b = int(input("Enter the second number: "))
-     print(a ** b, " is the result.")
+     print(a * a, " is the result.")
