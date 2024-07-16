@@ -1,20 +1,20 @@
-t = int(input("Options:-\n 1-Addition\n 2-Substraction\n 3-Multiplication\n 4-Division\n 5-Power\n Enter the option number you choosed - "))
-if t == 1:
+operation = int(input("Options:-\n1-Addition\n2-Substraction\n3-Multiplication\n4-Division\n5-Power\nEnter the option number you choosed - "))
+if operation == 1: # Adds two numbers
      a = int(input("Enter the first number: "))
      b = int(input("Enter the second number: "))
      print(a + b, " is the result.")
-elif t == 2:
+elif operation == 2: # Subtracts two numbers
      a = int(input("Enter the first number: "))
      b = int(input("Enter the second number: "))
      print(a - b, "is the result.")
-elif t == 3:
+elif operation == 3: # Multiplies two numbers
      a = int(input("Enter the first number: "))
      b = int(input("Enter the second number: "))
      print(a * b, " is the result.")
-elif t == 4:
+elif operation == 4: # Divides two number
      a = int(input("Enter the first number: "))
      b = int(input("Enter the second number: "))
      print(a / b, " is the result.")
-else:
+else: # Gives power(square) of a number
      a = int(input("Enter the first number: "))
      print(a * a, " is the result.")
